@@ -1,0 +1,120 @@
+html body {
+    position:fixed;
+    top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      margin: 0;
+    height: 100%;
+    width: 100%;
+    }
+  #main{
+    background-color: white;
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Roboto";
+  }
+  #logo-search {
+    margin: 10em auto 0 auto;
+  }
+  #logo {
+    margin-bottom: 10px;
+  }
+  #search {
+    padding: 12px 12px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    width: 39em;
+  }
+  #navbar-left {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 0;
+    float: left;
+  }
+  #navbar-right {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 0;
+    float: right;
+  }
+
+  #navbar li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #navbar li a {
+    color: gray;
+    text-decoration: none;
+    font-family:"Roboto";
+    font-size: 16px;
+  }
+  #sign-in {
+    background-color: #4285f4;
+    padding: 10px 20px 10px 20px;
+    color: white !important;
+  }
+  #search-buttons {
+    margin: 25px -5px;
+    display: flex;
+    height:3em;
+    width: 39em;
+    align-items: center;
+    justify-content: center;
+  }
+  #search-buttons input {
+    margin: 0px 25px;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+  }
+  #foot-left {
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  #foot-left li {
+    float:left;
+  }
+  #foot-right {
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    padding: 0;
+    width: 50%;
+    background-color: #f2f2f2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+  }
+  #foot-right li {
+    float:right;
+  }
+  #footer li {
+    display: inline;
+    margin:0 20px;
+    padding: 15px;
+  }
+  #footer li a{
+    color: #5f6368;
+    text-decoration: none;
+    font-family:"Roboto";
+    font-size: 16px;
+  }
