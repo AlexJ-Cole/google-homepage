@@ -17,6 +17,9 @@ html body {
     text-align: center;
     font-family: "Roboto";
   }
+  #search {
+      text-align: center;
+  }
   #logo-search {
     margin: 10em auto 0 auto;
   }
